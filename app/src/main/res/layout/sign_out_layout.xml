@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jacksonb.connections.SignOutActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5">
+
+    <LinearLayout
+        android:id="@+id/sign_out_images_linear_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:background="@color/lightBlue">
+
+        <ImageView
+            android:id="@+id/first_image_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:scaleType="center"
+            android:background="@drawable/no_image"/>
+
+        <ImageView
+            android:id="@+id/second_image_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:scaleType="center"
+            android:background="@drawable/no_image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_out_images_two_linear_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/sign_out_images_linear_layout"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:background="@color/lightBlue">
+
+        <ImageView
+            android:id="@+id/third_image_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:scaleType="center"
+            android:background="@drawable/no_image"/>
+
+        <ImageView
+            android:id="@+id/forth_image_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:scaleType="center"
+            android:background="@drawable/no_image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spinner_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/sign_out_images_two_linear_layout"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:background="@color/lightBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="Select Manager"
+            android:textAppearance="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/sign_out_manager_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="20dp"
+            android:background="@drawable/spinner_style"
+            android:entries="@array/signOutManager"
+            android:prompt="@string/spinnerTitle"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/sign_out_add_button_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/spinner_linear_layout"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/lightBlue">
+
+        <Button
+            android:id="@+id/sign_out_add_button"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add image"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_out_button_style"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_out_send_button_linear_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/sign_out_add_button_linear_layout"
+        android:gravity="center"
+        android:background="@color/lightBlue">
+
+        <Button
+            android:id="@+id/sign_out_send_button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_out_button_style"/>
+
+    </LinearLayout>
+
+</LinearLayout>

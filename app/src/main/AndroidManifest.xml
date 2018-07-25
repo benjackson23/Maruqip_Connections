@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jacksonb.connections">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-feature android:name="android.hardware.video" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bw_app_icon"
+        android:label="BW Connections"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ContactsActivity"
+            android:label="Contacts"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SignOutActivity"
+            android:label="Sign Out Sender"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".KnowledgeSharingActivity"
+            android:label="Knowledge Sharing"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PDFWebActivity"
+            android:label="PDF Web"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PasswordGeneratorActivity"
+            android:label="Password Generator"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

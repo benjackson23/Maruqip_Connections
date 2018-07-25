@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Connections</string>
+
+    <string-array name="contactsPhoneStringArray">
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>3148628000</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+        <item>4105847700</item>
+        <item>7153392191</item>
+        <item>7153392191</item>
+
+
+    </string-array>
+
+    <string-array name="contactsEmailStringArray">
+        <item>brett.bergstrom@bwpapersystems.com</item>
+        <item>dan.jackson@bwpapersystems.com</item>
+        <item>dustin.mataczynski@bwpapersystems.com</item>
+        <item>logan.edinger@bwpapersystems.com</item>
+        <item>keith.kornuth@bwpapersystems.com</item>
+        <item>joe.neerdaels@bwpapersystems.com</item>
+        <item>dave.carlsen@bwpapersystems.com</item>
+        <item>mark.chrouser@bwpapersystems.com</item>
+        <item>catherine.schmidt@bwpapersystems.com</item>
+        <item>tammy.nikkila@bwpapersystems.com</item>
+        <item>kevin.rein@bwpapersystems.com</item>
+        <item>michael.krans@bwpapersystems.com</item>
+        <item>ramaprasad.srinivasa@bwpapersystems.com</item>
+        <item>john.podmolik@bwpapersystems.com</item>
+        <item>steve.nerney@bwpapersystems.com</item>
+
+    </string-array>
+
+    <string-array
+        name="contactsNameStringArray">
+        <item>Brett Bergstrom</item>
+        <item>Dan Jackson</item>
+        <item>Dustin Mataczynski</item>
+        <item>Logan Edinger</item>
+        <item>Keith Kornuth</item>
+        <item>Joe Neerdaels</item>
+        <item>Dave Carlsen</item>
+        <item>Mark Chrouser</item>
+        <item>Cathy Schmidt</item>
+        <item>Tammy Nikkila</item>
+        <item>Kevin Rein</item>
+        <item>Mike Krans</item>
+        <item>Ramaprasad Srinivasa</item>
+        <item>John Podmolik</item>
+        <item>Steve Nerney</item>
+
+    </string-array>
+
+    <string-array
+        name="signOutManager">
+        <item>Dustin Mataczynski</item>
+        <item>Dan Jackson</item>
+        <item>Logan Edinger</item>
+        <item>Mike Krans</item>
+        <item>Joe Neerdaels</item>
+
+    </string-array>
+
+    <string name="spinnerTitle">Select Manager</string>
+
+</resources>
